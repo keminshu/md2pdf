@@ -1,33 +1,28 @@
-export const initialText = `# Markdown2PDF 
-https://md2pdf.netlify.com/
-> Awesome Markdown to PDF!
-\`\`\`diff
-- Online? Upload resume.md to stranger server?
-+ Try Offline Web App!
+export const initialText = `# md2pdf 
+https://md2pdf.shukaiming.com/
+> 非常好用的 Markdown 转 PDF 工具!
+\`\`\`区别
+- 还需要在线处理? 还需要上传 resume.md 简历文件到陌生的服务器?
++ 来试试离线的 Web 应用吧!
 \`\`\`
 
-## How to use md2pdf?
-1. Click button choose \`.md\` file.
-2. Edit in editor (left panel).
-3. Click **Transform**!
-4. Switch 'Destination' to **Save as PDF**.
-4. **Chrome recommended**
+## 如何使用 md2pdf?
+1. 点击**选择**去选择 \`.md\` 文件.
+2. 在编辑器里面编辑文本 (左面板).
+3. 点击**转换**!
+4. 选择 '目标打印机' 到 **另存为 PDF**.
+4. **推荐使用 Chrome**
 
-## Tips
-- \`Resize\` the layout what you want.
-- After click \`Transform\` button, inverse the checkbox of **'Headers and Footers'**. 
-- **反選頁首與頁尾**.
+## 注意事项
+- \`调整\`到你想要的布局.
+- 点击 \`转换\` 按钮之后, 反选校验框**'页首与页尾'**. 
+- **反选页首与页尾**.
 
-## What's special?
-- You can use <span style="color:#0984e3">html</span> tag!
+## 还有哪些特别的？
+- 你还能用 <span style="color:#0984e3">html</span> 标签!
 <blockquote>Hey I'm in blockquote!</blockquote>
 
-## Profile
-- Github: [@realdennis](https://github.com/realdennis)
-- Project: md2pdf (Markdown2PDF)
-- What about me: ☕ 、 👨🏻‍💻️、 🍕、 🎞️
-
-## Code Like this
+## 代码像这样
 \`\`\`javascript
 // index.js
 function Hello(){
@@ -36,7 +31,7 @@ function Hello(){
 Hello();
 \`\`\`
 
-or this
+或者这样
 
 \`\`\`python
 # main.py

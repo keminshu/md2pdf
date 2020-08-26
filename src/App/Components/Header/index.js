@@ -5,27 +5,18 @@ const Header = ({ className }) => {
   return (
     <header className={className + ' no-print'}>
       <p className="project"> md2pdf </p>
-      <iframe
-        title="github-button"
-        className="project"
-        style={{ display: 'block' }}
-        src="https://ghbtns.com/github-btn.html?user=realdennis&repo=md2pdf&type=star&count=true"
-        frameBorder="0"
-        scrolling="0"
-        width="100px"
-        height="20px"
-      />
-
+      <p className="markdown-mastering-block">
+        <a href="https://guides.github.com/features/mastering-markdown/" className="markdown-mastering" target="__blank">markdown指南<sup style={{color:"red"}}>github</sup></a>
+      </p>
       <div className="menu">
         <UploadButton className="button upload" />
         <p className="button download" onClick={() => window.print()}>
           <span role="img" aria-label="download">
             🎉
           </span>
-          <span>Transform</span>
+          <span>转换</span>
         </p>
-      </div>
-      {/* <span className="author">Powered by @realdennis</span> */}
+      </div>  
     </header>
   );
 };
@@ -50,6 +41,14 @@ export default styled(Header)`
     margin: 5px;
     flex-shrink: 0;
     height: 20px;
+  }
+  .markdown-mastering-block {
+    margin-left:20px
+  }
+  .markdown-mastering{
+    font-size:0.8em;
+    white-space:nowrap;
+    text-decoration:none;
   }
   div.menu {
     width: 100%;
