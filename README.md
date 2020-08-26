@@ -1,35 +1,49 @@
-[![Build Status](https://travis-ci.org/realdennis/md2pdf.svg?branch=master)](https://travis-ci.org/realdennis/md2pdf)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c4c9c07a-bd99-4382-8b19-4ae3abc8f104/deploy-status)](https://app.netlify.com/sites/md2pdf/deploys)
+[![Build Status](https://travis-ci.org/keminshu/md2pdf.svg?branch=master)](https://travis-ci.org/keminshu/md2pdf)
 
 # Markdown2PDF 
-https://md2pdf.netlify.com/
+https://md2pdf.shukaiming.com/
 
-![It just works!](https://media.giphy.com/media/MuAtuqUGnn2PKsXhs6/giphy.gif)
+> 非常好用的 Markdown 转 PDF!
 
-![Upload](https://media.giphy.com/media/cZ1f4b46P3LGszuXuy/giphy.gif)
-
-> Awesome Markdown to PDF!
 ```diff
-- Online? Upload resume.md to stranger server?
-+ Try Offline Web App!
+- 还需要在线处理? 还需要上传 resume.md 简历文件到陌生的服务器?
++ 来试试离线的 Web 应用吧!
 ```
 
-## How to use md2pdf?
-1. Click button choose `.md` file.
-2. Edit in editor (left panel).
-3. Click **Transform**!
-4. Switch 'Destination' to **Save as PDF**.
-4. **Chrome recommended**
+## 如何使用 md2pdf?
+1. 点击**选择**去选择 `.md` 文件.
+2. 在编辑器里面编辑文本 (左面板).
+3. 点击**转换**!
+4. 选择 '目标打印机' 到 **另存为PDF**.
+4. **推荐使用 Chrome**
 
-## Tips
-- `Resize` the layout what you want.
-- After click `Transform` button, inverse the checkbox of **'Headers and Footers'**. 
-- **反選頁首與頁尾**.
+## 注意事项
+- `调整`到你想要的布局.
+- 点击 `转换` 按钮之后, 反选校验框**页首与页尾**. 
+- **反选页首与页尾**.
 
-## What's special?
-- You can use <span style="color:#0984e3">html</span> tag!
+## 还有哪些特别的？
+- 你还能用 <span style="color:#0984e3">html</span> 标签!
 <blockquote>Hey I'm in blockquote!</blockquote>
+
+## 代码像这样
+```javascript
+// index.js
+function Hello(){
+  console.log('World!')
+}
+Hello();
+```
+
+或者这样
+
+```python
+# main.py
+def awesome():
+    print('awesome!')
+awesome()
+```
 
 ---
 
-LICENSE MIT © 2019 realdennis
+LICENSE MIT © 2020 keminshu
